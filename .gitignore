@@ -1,0 +1,44 @@
+
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.war
+
+# Node / React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IntelliJ / IDE
+.idea/
+*.iml
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Separate Java learning repository
+/Basic-java-file/
+
+**/application.properties
+
+# Local HTTP requests may contain credentials
+**/requests.http
